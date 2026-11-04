@@ -1,0 +1,11 @@
+household_id,village,asha_id,house_no,head_member_id,head_name,members_count
+HH001,Amrapur,ASHA01,HN-001,M001,Ramesh Kumar,3
+HH002,Amrapur,ASHA01,HN-002,M004,Suresh Verma,2
+HH003,Amrapur,ASHA01,HN-003,M006,Mohan Lal,3
+HH004,Belwadi Tola,ASHA02,HN-004,M009,Anil Sharma,2
+HH005,Belwadi Tola,ASHA02,HN-005,M011,Vijay Singh,3
+HH006,Belwadi Tola,ASHA02,HN-006,M014,Prakash Rao,2
+HH007,Dhanpura,ASHA03,HN-007,M016,Abdul Rahim,3
+HH008,Dhanpura,ASHA03,HN-008,M019,Kishore Reddy,2
+HH009,Dhanpura,ASHA03,HN-009,M021,Gopal Das,2
+HH010,Amrapur,ASHA01,HN-010,M023,Narayan Murthy,3
