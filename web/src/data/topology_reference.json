@@ -1,0 +1,71 @@
+{
+  "block": "Chandrapuri",
+  "district": "Chandrapuri",
+  "ashas": [
+    {
+      "asha_id": "ASHA-096P",
+      "asha_name": "Sunaina Devi",
+      "villages": ["Amrapur"]
+    },
+    {
+      "asha_id": "ASHA-RRR5",
+      "asha_name": "Kalavati Kumari",
+      "villages": ["Belwadi Tola"]
+    },
+    {
+      "asha_id": "ASHA-YFK5",
+      "asha_name": "Rinku Devi",
+      "villages": ["Kesarganj"]
+    },
+    {
+      "asha_id": "ASHA-L9R8",
+      "asha_name": "Shabnam Khatoon",
+      "villages": ["Dhanpura"]
+    },
+    {
+      "asha_id": "ASHA-KQXR",
+      "asha_name": "Malti Devi",
+      "villages": ["Navagaon Khurd", "Sitapahari"]
+    }
+  ],
+  "villages": [
+    "Amrapur",
+    "Belwadi Tola",
+    "Dhanpura",
+    "Kesarganj",
+    "Navagaon Khurd",
+    "Sitapahari"
+  ],
+  "village_to_asha": {
+    "Amrapur": {
+      "asha_id": "ASHA-096P",
+      "asha_name": "Sunaina Devi"
+    },
+    "Belwadi Tola": {
+      "asha_id": "ASHA-RRR5",
+      "asha_name": "Kalavati Kumari"
+    },
+    "Dhanpura": {
+      "asha_id": "ASHA-L9R8",
+      "asha_name": "Shabnam Khatoon"
+    },
+    "Kesarganj": {
+      "asha_id": "ASHA-YFK5",
+      "asha_name": "Rinku Devi"
+    },
+    "Navagaon Khurd": {
+      "asha_id": "ASHA-KQXR",
+      "asha_name": "Malti Devi"
+    },
+    "Sitapahari": {
+      "asha_id": "ASHA-KQXR",
+      "asha_name": "Malti Devi"
+    }
+  },
+  "anms": [
+    {
+      "anm_id": "ANM-01",
+      "anm_name": "ANM Nirmala (Chandrapuri Sub-Centre)"
+    }
+  ]
+}

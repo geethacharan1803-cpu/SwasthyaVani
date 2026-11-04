@@ -1,0 +1,101 @@
+{
+  "ANC-1.1": {
+    "section_id": "ANC-1.1",
+    "title": ": Antenatal Registration and Scheduling",
+    "full_title": ": Antenatal Registration and Scheduling",
+    "doc_prefix": "01_sample_maternal_care",
+    "doc_file": "01_sample_maternal_care.md",
+    "citation": "01_sample_maternal_care, Section ANC-1.1",
+    "raw_text": "Every pregnant woman should be registered within the first 12 weeks of pregnancy. Four standard antenatal visits are scheduled to monitor maternal health, fetal growth, and blood pressure.",
+    "clean_text": "Every pregnant woman should be registered within the first 12 weeks of pregnancy. Four standard antenatal visits are scheduled to monitor maternal health, fetal growth, and blood pressure.",
+    "char_count": 188
+  },
+  "ANC-1.2": {
+    "section_id": "ANC-1.2",
+    "title": ": Nutritional Care and Iron Folic Acid",
+    "full_title": ": Nutritional Care and Iron Folic Acid",
+    "doc_prefix": "01_sample_maternal_care",
+    "doc_file": "01_sample_maternal_care.md",
+    "citation": "01_sample_maternal_care, Section ANC-1.2",
+    "raw_text": "Administer 180 tablets of Iron Folic Acid (IFA) starting from the second trimester to prevent maternal anaemia. Advise a balanced diet with green leafy vegetables and dairy.",
+    "clean_text": "Administer 180 tablets of Iron Folic Acid (IFA) starting from the second trimester to prevent maternal anaemia. Advise a balanced diet with green leafy vegetables and dairy.",
+    "char_count": 173
+  },
+  "ANC-1.3": {
+    "section_id": "ANC-1.3",
+    "title": ": Identification of High Risk Pregnancy",
+    "full_title": ": Identification of High Risk Pregnancy",
+    "doc_prefix": "01_sample_maternal_care",
+    "doc_file": "01_sample_maternal_care.md",
+    "citation": "01_sample_maternal_care, Section ANC-1.3",
+    "raw_text": "Identify high-risk factors including severe anaemia (Hb < 7 g/dL), pre-eclampsia (BP >= 140/90 with proteinuria), previous Caesarean section, and maternal age under 18 or over 35.",
+    "clean_text": "Identify high-risk factors including severe anaemia (Hb < 7 g/dL), pre-eclampsia (BP >= 140/90 with proteinuria), previous Caesarean section, and maternal age under 18 or over 35.",
+    "char_count": 179
+  },
+  "IMM-1.1": {
+    "section_id": "IMM-1.1",
+    "title": ": Primary Vaccination Schedule",
+    "full_title": ": Primary Vaccination Schedule",
+    "doc_prefix": "02_sample_child_health",
+    "doc_file": "02_sample_child_health.md",
+    "citation": "02_sample_child_health, Section IMM-1.1",
+    "raw_text": "Newborns receive BCG, OPV-0, and Hepatitis B at birth. Pentavalent-1 and Rota-1 are administered at 6 weeks of age.",
+    "clean_text": "Newborns receive BCG, OPV-0, and Hepatitis B at birth. Pentavalent-1 and Rota-1 are administered at 6 weeks of age.",
+    "char_count": 115
+  },
+  "CHD-1.1": {
+    "section_id": "CHD-1.1",
+    "title": ": Management of Diarrhoea and Dehydration",
+    "full_title": ": Management of Diarrhoea and Dehydration",
+    "doc_prefix": "02_sample_child_health",
+    "doc_file": "02_sample_child_health.md",
+    "citation": "02_sample_child_health, Section CHD-1.1",
+    "raw_text": "Administer Oral Rehydration Salts (ORS) and Zinc dispersible tablets (20 mg daily for 14 days) to prevent severe dehydration during acute watery diarrhoea.",
+    "clean_text": "Administer Oral Rehydration Salts (ORS) and Zinc dispersible tablets (20 mg daily for 14 days) to prevent severe dehydration during acute watery diarrhoea.",
+    "char_count": 155
+  },
+  "NUT-1.1": {
+    "section_id": "NUT-1.1",
+    "title": ": Malnutrition Screening via MUAC",
+    "full_title": ": Malnutrition Screening via MUAC",
+    "doc_prefix": "02_sample_child_health",
+    "doc_file": "02_sample_child_health.md",
+    "citation": "02_sample_child_health, Section NUT-1.1",
+    "raw_text": "Mid-Upper Arm Circumference (MUAC) color bands indicate nutritional status: Red (< 11.5 cm) indicates Severe Acute Malnutrition (SAM), Yellow (11.5 - 12.5 cm) indicates Moderate Acute Malnutrition (MAM), and Green (> 12.5 cm) indicates Normal nutrition.",
+    "clean_text": "Mid-Upper Arm Circumference (MUAC) color bands indicate nutritional status: Red (< 11.5 cm) indicates Severe Acute Malnutrition (SAM), Yellow (11.5 - 12.5 cm) indicates Moderate Acute Malnutrition (MAM), and Green (> 12.5 cm) indicates Normal nutrition.",
+    "char_count": 253
+  },
+  "ESC-1.1": {
+    "section_id": "ESC-1.1",
+    "title": ": Severe Obstetric Danger Signs",
+    "full_title": ": Severe Obstetric Danger Signs",
+    "doc_prefix": "03_sample_emergency_referral",
+    "doc_file": "03_sample_emergency_referral.md",
+    "citation": "03_sample_emergency_referral, Section ESC-1.1",
+    "raw_text": "Immediate ambulance transfer (108/102) is required for heavy vaginal bleeding, convulsions or seizures, severe persistent headache with blurred vision, and high fever during pregnancy or labour.",
+    "clean_text": "Immediate ambulance transfer (108/102) is required for heavy vaginal bleeding, convulsions or seizures, severe persistent headache with blurred vision, and high fever during pregnancy or labour.",
+    "char_count": 194
+  },
+  "ESC-2.1": {
+    "section_id": "ESC-2.1",
+    "title": ": Neonatal Red Flags",
+    "full_title": ": Neonatal Red Flags",
+    "doc_prefix": "03_sample_emergency_referral",
+    "doc_file": "03_sample_emergency_referral.md",
+    "citation": "03_sample_emergency_referral, Section ESC-2.1",
+    "raw_text": "Transfer urgently if the infant is cold to touch despite skin-to-skin contact, has chest indrawing or grunting, is unable to feed, or presents with yellow soles and palms (severe jaundice).",
+    "clean_text": "Transfer urgently if the infant is cold to touch despite skin-to-skin contact, has chest indrawing or grunting, is unable to feed, or presents with yellow soles and palms (severe jaundice).",
+    "char_count": 189
+  },
+  "SCP-1.1": {
+    "section_id": "SCP-1.1",
+    "title": ": Scope Boundaries and Medical Officer Referral",
+    "full_title": ": Scope Boundaries and Medical Officer Referral",
+    "doc_prefix": "03_sample_emergency_referral",
+    "doc_file": "03_sample_emergency_referral.md",
+    "citation": "03_sample_emergency_referral, Section SCP-1.1",
+    "raw_text": "Frontline workers do not prescribe antibiotics or injectables. If high-grade fever persists beyond 48 hours or suspected bacterial infection occurs, immediately refer to the Medical Officer at the Primary Health Centre.",
+    "clean_text": "Frontline workers do not prescribe antibiotics or injectables. If high-grade fever persists beyond 48 hours or suspected bacterial infection occurs, immediately refer to the Medical Officer at the Primary Health Centre.",
+    "char_count": 219
+  }
+}
