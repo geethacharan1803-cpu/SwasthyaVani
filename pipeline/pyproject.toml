@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swasthyavani-pipeline"
+version = "1.0.0"
+description = "Offline data preparation and indexing pipeline for SwasthyaVani"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "YOUR_NAME", email = "YOUR_EMAIL"}
+]
+license = {text = "MIT"}
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "pyyaml>=6.0",
+    "pytest>=7.0.0",
+    "psutil>=5.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+

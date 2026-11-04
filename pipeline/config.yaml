@@ -1,0 +1,13 @@
+app:
+  name: "SwasthyaVani"
+  version: "1.0.0"
+  default_language: "en"
+
+paths:
+  data_dir: "../data"
+  sample_data_dir: "../data/sample"
+  web_public_data_dir: "../web/public/data"
+
+indexing:
+  k1: 1.2
+  b: 0.75
