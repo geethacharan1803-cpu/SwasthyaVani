@@ -21,3 +21,4 @@ fs.mkdirSync(androidAssetsDir, { recursive: true });
 // Copy all files recursively
 fs.cpSync(distDir, androidAssetsDir, { recursive: true });
 console.log(`[SYNC] Successfully synchronized built web assets from ${distDir} to ${androidAssetsDir}`);
+

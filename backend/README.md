@@ -150,3 +150,4 @@ The specifications below represent the **proposed API design** for future backen
    * Immutable append-only audit trail for all read and write accesses to patient clinical logs.
 5. **Conflict Resolution Strategy**:
    * Last-write-wins (LWW) is prohibited for clinical vitals. Field conflicts trigger a manual review flag assigned to the designated Sector Medical Officer or Primary Health Centre (PHC) Medical Officer.
+

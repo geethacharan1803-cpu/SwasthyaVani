@@ -86,3 +86,4 @@ The Android wrapper requests only essential frontline permissions:
 * `android.permission.MODIFY_AUDIO_SETTINGS`: Used for clear speech synthesis audio playback.
 
 The application functions completely offline without an internet connection for all protocol search, escalation triage, and visit planning features.
+
