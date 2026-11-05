@@ -1,0 +1,70 @@
+name: SwasthyaVani CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  frontend-ci:
+    name: Frontend Tests, Lint & Build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 20, 22 ]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Frontend Dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Run Frontend Unit Tests (Vitest)
+        working-directory: frontend
+        run: npm test
+
+      - name: Run Frontend Linter (ESLint)
+        working-directory: frontend
+        run: npm run lint
+
+      - name: Run Frontend Production Build (Vite)
+        working-directory: frontend
+        run: npm run build
+
+  pipeline-ci:
+    name: Python Pipeline Tests & Data Integrity
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ "3.10", "3.11", "3.12" ]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Pipeline Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e pipeline/
+          pip install ruff pytest
+
+      - name: Run Ruff Linter
+        run: ruff check pipeline/
+
+      - name: Run Pytest Suite
+        run: pytest pipeline/tests/ -v
+
+      - name: Run Data Integrity Verification
+        run: python pipeline/src/swasthyavani/verify_integrity.py
