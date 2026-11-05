@@ -21,7 +21,7 @@ from swasthyavani.translate_check import check_translations
 def test_translation_dictionaries_parity():
     """Verify that all i18n dictionaries match 100% with no missing keys."""
     base_dir = Path(__file__).resolve().parents[2]
-    i18n_dir = base_dir / "web" / "src" / "i18n"
+    i18n_dir = base_dir / "frontend" / "src" / "i18n"
     assert check_translations(i18n_dir) is True
 
 

@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://swasthyavani.vercel.app/sitemap.xml
+
